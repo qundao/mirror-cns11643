@@ -1,0 +1,142 @@
+# baseURI: https://data.gov.tw/dataset/8572
+
+@prefix cld: <http://purl.org/cld/terms/> .
+@prefix dgt: <https://data.gov.tw/dataset/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dctype: <http://purl.org/dc/dcmitype/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mime: <https://www.iana.org/assignments/media-types/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix proj: <http://www.w3.org/ns/project#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <http://schema.org/> .
+@prefix dqv: <http://www.w3.org/ns/dqv#> .
+
+dgt:CR5961
+  a dcat:CatalogRecord ;
+  dcterms:title "CNS11643中文標準交換碼全字庫(簡稱全字庫)"@zh ;
+  dcterms:description ""@zh ;
+  dcterms:issued "2015-01-31"^^xsd:date ;
+  dcterms:modified "2024-08-15T18:10:53"^^xsd:dateTime ;
+  foaf:primaryTopic dgt:5961 ;
+.
+
+dgt:5961
+  a dcat:Dataset ;
+  dcterms:title "CNS11643中文標準交換碼全字庫(簡稱全字庫)"@zh ;
+  dcterms:description ""@zh ;
+  dcterms:description "filename、version、path、更新日期、更新項目、note"@zh ;
+  dcterms:identifier "https://cms.data.gov.tw/dataset/5961"^^dcterms:URI;
+  dcterms:issued "2015-01-31"^^xsd:date ;
+  dcterms:license <http://data.gov.tw/license> ;
+  dcterms:publisher [ rdfs:label "數位發展部"@zh ];
+  dcat:contactPoint [ rdfs:label "林先生 (02-23800264)"@zh ];
+  dcterms:accrualPeriodity <http://purl.org/cld/freq/Irregular>;
+  dcat:theme [ rdfs:label "公共資訊"@zh ];
+  dcat:keyword "全字庫、中文字型下載、中文碼對照表、統一代碼"@zh;
+  schema:offers [ a schema:Offer;  rdfs:label "免費"@zh;  schema:price "0"^^xsd:nonNegativeInteger; schema:priceCurrency "TWD"^^xsd:string ];
+  dcat:landingPage <https://cms.data.gov.tw/dataset/5961>;
+  rdfs:comment "授權說明網址: http://data.gov.tw/license"@zh;
+  dcterms:relation dgt:13022 ;
+  dcterms:relation dgt:7081 ;
+  dcterms:relation dgt:13053 ;
+  dcterms:relation dgt:41316 ;
+  dcterms:relation dgt:54261 ;
+  dcat:distribution <https://www.cns11643.gov.tw/opendata/release.json> ;
+  dcat:distribution <https://www.cns11643.gov.tw/opendata/Fonts_Sung.zip> ;
+  dcat:distribution <https://www.cns11643.gov.tw/opendata/Fonts_Kai.zip> ;
+  dcat:distribution <https://www.cns11643.gov.tw/opendata/Tables.zip> ;
+  dcat:distribution <https://www.cns11643.gov.tw/opendata/Voice.zip> ;
+  dcat:distribution <https://www.cns11643.gov.tw/opendata/OpenDataFilesList.csv> ;
+.
+
+<https://www.cns11643.gov.tw/opendata/release.json>
+  a dcat:Distribution;
+  dcterms:description "filename、version、path、更新日期、更新項目、note"@zh ;
+  dcterms:description "全字庫資料集更新說明，2024年8月15日更新"@zh ;
+  dcterms:description ""@zh ;
+  rdfs:comment "全字庫資料集更新說明，2024年8月15日更新"@zh ;
+  schema:encodingFormat "UTF-8"@zh ;
+  dcat:byteSize "5"^^xsd:nonNegativeInteger;
+  dgt:resourceQualityCheckTime "2024-08-15T18:18:46"^^xsd:dateTime;
+  dcat:downloadURL <https://www.cns11643.gov.tw/opendata/release.json>;
+  rdf:comment ""@zh;
+.
+
+<https://www.cns11643.gov.tw/opendata/Fonts_Sung.zip>
+  a dcat:Distribution;
+  dcterms:description "檔案名稱、下載連結"@zh ;
+  dcterms:description "全字庫宋體字型檔，2024年8月15日更新"@zh ;
+  dcterms:description ""@zh ;
+  rdfs:comment "全字庫宋體字型檔，2024年8月15日更新"@zh ;
+  schema:encodingFormat ""@zh ;
+  dcat:byteSize "0"^^xsd:nonNegativeInteger;
+  dgt:resourceQualityCheckTime "2024-08-15T18:18:47"^^xsd:dateTime;
+  dcat:downloadURL <https://www.cns11643.gov.tw/opendata/Fonts_Sung.zip>;
+  rdf:comment ""@zh;
+.
+
+<https://www.cns11643.gov.tw/opendata/Fonts_Kai.zip>
+  a dcat:Distribution;
+  dcterms:description "檔案名稱、下載連結"@zh ;
+  dcterms:description "全字庫楷體字型檔，2024年8月15日更新"@zh ;
+  dcterms:description ""@zh ;
+  rdfs:comment "全字庫楷體字型檔，2024年8月15日更新"@zh ;
+  schema:encodingFormat ""@zh ;
+  dcat:byteSize "0"^^xsd:nonNegativeInteger;
+  dgt:resourceQualityCheckTime "2024-08-15T18:18:49"^^xsd:dateTime;
+  dcat:downloadURL <https://www.cns11643.gov.tw/opendata/Fonts_Kai.zip>;
+  rdf:comment ""@zh;
+.
+
+<https://www.cns11643.gov.tw/opendata/Tables.zip>
+  a dcat:Distribution;
+  dcterms:description "檔案名稱、下載連結"@zh ;
+  dcterms:description "全字庫屬性資料集中文碼對照表，2024年8月15日更新"@zh ;
+  dcterms:description ""@zh ;
+  rdfs:comment "全字庫屬性資料集中文碼對照表，2024年8月15日更新"@zh ;
+  schema:encodingFormat ""@zh ;
+  dcat:byteSize "0"^^xsd:nonNegativeInteger;
+  dgt:resourceQualityCheckTime "2024-08-15T18:18:51"^^xsd:dateTime;
+  dcat:downloadURL <https://www.cns11643.gov.tw/opendata/Tables.zip>;
+  rdf:comment ""@zh;
+.
+
+<https://www.cns11643.gov.tw/opendata/Voice.zip>
+  a dcat:Distribution;
+  dcterms:description "檔案名稱、下載連結"@zh ;
+  dcterms:description "全字庫聲音檔，2019年1月31日更新"@zh ;
+  dcterms:description ""@zh ;
+  rdfs:comment "全字庫聲音檔，2019年1月31日更新"@zh ;
+  schema:encodingFormat ""@zh ;
+  dcat:byteSize "0"^^xsd:nonNegativeInteger;
+  dgt:resourceQualityCheckTime "2024-08-15T18:18:52"^^xsd:dateTime;
+  dcat:downloadURL <https://www.cns11643.gov.tw/opendata/Voice.zip>;
+  rdf:comment ""@zh;
+.
+
+<https://www.cns11643.gov.tw/opendata/OpenDataFilesList.csv>
+  a dcat:Distribution;
+  dcterms:description "名稱、所屬、類別、說明"@zh ;
+  dcterms:description "OpenDataFilesList.csv"@zh ;
+  dcterms:description ""@zh ;
+  rdfs:comment "OpenDataFilesList.csv"@zh ;
+  schema:encodingFormat "BIG5"@zh ;
+  dcat:byteSize "73"^^xsd:nonNegativeInteger;
+  dgt:resourceQualityCheckTime "2024-08-15T18:18:57"^^xsd:dateTime;
+  dcat:downloadURL <https://www.cns11643.gov.tw/opendata/OpenDataFilesList.csv>;
+  rdf:comment ""@zh;
+.
+
+<http://data.gov.tw/license> rdfs:label "政府資料開放授權條款-第1版"@zh .
+<http://purl.org/cld/freq/Irregular>
+a cld:Frequency;
+  rdfs:label "不定期更新"@zh;
+.

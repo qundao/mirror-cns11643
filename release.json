@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "filename": "release.json",
+      "version": "20241216",
+      "path": "https://www.cns11643.gov.tw/opendata/release.json"
+    },
+    {
+      "filename": "Fonts_Kai.zip",
+      "version": "20241216",
+      "path": "https://www.cns11643.gov.tw/opendata/Fonts_Kai.zip"
+    },
+    {
+      "filename": "Fonts_Sung.zip",
+      "version": "20241216",
+      "path": "https://www.cns11643.gov.tw/opendata/Fonts_Sung.zip"
+    },
+    {
+      "filename": "Tables.zip",
+      "version": "20241216",
+      "path": "https://www.cns11643.gov.tw/opendata/Tables.zip"
+    },
+    {
+      "filename": "Voice.zip",
+      "version": "20241216",
+      "path": "https://www.cns11643.gov.tw/opendata/Voice.zip"
+    }
+  ],
+  "changelog": [
+    {
+      "更新日期": "2024-12-16",
+      "更新項目": "1.新增臺灣台語用字 11-7D5A, 11-7D5B。\n2.新增暫編戶政姓名用字 12-446D。"
+    },
+    {
+      "更新日期": "2024-09-13",
+      "更新項目": "新增臺灣台語用字 11-7E28, 11-7E2B, 11-7E40, 11-7E41, 11-7E4E, 11-7E4F, 11-7E58, 11-7E65, 11-7E67 等 9 字 。"
+    },
+    {
+      "更新日期": "2024-08-15",
+      "更新項目": "新增暫編戶政姓名用字 17-2170。"
+    }
+  ],
+  "note": "changelog 僅提供最近 6 個月之說明。"
+}
