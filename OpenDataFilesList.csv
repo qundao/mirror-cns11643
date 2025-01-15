@@ -1,5 +1,5 @@
 名稱,所屬,類別,說明
-release.json,-,檔案,OpenData全字庫資料集發布說明
+release.txt,-,檔案,OpenData全字庫資料集發布說明
 Fonts_Kai.zip,-,檔案,全字庫楷體字型 ZIP 壓縮檔
 TW-Kai-98_1.ttf,Fonts_Kai.zip,檔案,全字庫正楷體向量字型檔(對應至Unicode的BMP字面)
 TW-Kai-Ext-B-98_1.ttf,Fonts_Kai.zip,檔案,全字庫正楷體向量字型檔(對應至Unicode的第2字面)
@@ -52,17 +52,18 @@ CNS2INC.txt,MapingTables.zip,檔案,CNS對工商內碼的對照表
 CNS2TAX.txt,MapingTables.zip,檔案,CNS對財稅交換碼的對照表
 全字庫中文對照表說明文件.txt,MapingTables.zip,檔案,全字庫對照表說明
 Properties.zip,-,檔案,全字庫屬性資料 ZIP 壓縮檔
-CNS_phonetic.txt,Properties.zip,檔案,全字庫的注音資料表格
 CNS_cangjei.txt,Properties.zip,檔案,全字庫的倉頡資料表格
-CNS_stroke.txt,Properties.zip,檔案,全字庫的筆畫數資料表格
-CNS_radical.txt,Properties.zip,檔案,全字庫的部首資料表格
-CNS_radical_word.txt,Properties.zip,檔案,全字庫的部首代號資料表格
-CNS_pinyin.txt,Properties.zip,檔案,全字庫的拼音資料表格
 CNS_component.txt,Properties.zip,檔案,全字庫的部件資料表格
 CNS_component_word.txt,Properties.zip,檔案,全字庫的部件代號資料表格
 CNS_component_word.zip,Properties.zip,檔案,全字庫的部件圖檔
-CNS_strokes_sequence.txt,Properties.zip,檔案,全字庫的筆順資料表格
+CNS_phonetic.txt,Properties.zip,檔案,全字庫的注音資料表格
+CNS_pinyin_1.txt,Properties.zip,檔案,全字庫的拼音資料表格
+CNS_pinyin_2.txt,Properties.zip,檔案,全字庫的拼音資料表格
+CNS_radical.txt,Properties.zip,檔案,全字庫的部首資料表格
+CNS_radical_word.txt,Properties.zip,檔案,全字庫的部首代號資料表格
 CNS_source.txt,Properties.zip,檔案,全字庫的字形來源資料表格
+CNS_stroke.txt,Properties.zip,檔案,全字庫的筆畫數資料表格
+CNS_strokes_sequence.txt,Properties.zip,檔案,全字庫的筆順資料表格
 全字庫屬性資料說明文件.txt,Properties.zip,檔案,全字庫屬性資料說明
 Voice.zip,-,檔案,全字庫音檔 ZIP 壓縮檔
 female.zip,Voice.zip,檔案,內含女性發音音檔

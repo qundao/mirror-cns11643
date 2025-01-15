@@ -24,7 +24,7 @@ dgt:CR5961
   dcterms:title "CNS11643中文標準交換碼全字庫(簡稱全字庫)"@zh ;
   dcterms:description ""@zh ;
   dcterms:issued "2015-01-31"^^xsd:date ;
-  dcterms:modified "2024-08-15T18:10:53"^^xsd:dateTime ;
+  dcterms:modified "2025-01-13T17:43:19"^^xsd:dateTime ;
   foaf:primaryTopic dgt:5961 ;
 .
 
@@ -37,7 +37,7 @@ dgt:5961
   dcterms:issued "2015-01-31"^^xsd:date ;
   dcterms:license <http://data.gov.tw/license> ;
   dcterms:publisher [ rdfs:label "數位發展部"@zh ];
-  dcat:contactPoint [ rdfs:label "林先生 (02-23800264)"@zh ];
+  dcat:contactPoint [ rdfs:label "金先生 (02-23800261)"@zh ];
   dcterms:accrualPeriodity <http://purl.org/cld/freq/Irregular>;
   dcat:theme [ rdfs:label "公共資訊"@zh ];
   dcat:keyword "全字庫、中文字型下載、中文碼對照表、統一代碼"@zh;
@@ -47,38 +47,39 @@ dgt:5961
   dcterms:relation dgt:13022 ;
   dcterms:relation dgt:7081 ;
   dcterms:relation dgt:13053 ;
-  dcterms:relation dgt:41316 ;
+  dcterms:relation dgt:32299 ;
   dcterms:relation dgt:54261 ;
-  dcat:distribution <https://www.cns11643.gov.tw/opendata/release.json> ;
+  dcat:distribution <https://www.cns11643.gov.tw/opendata/release.txt> ;
   dcat:distribution <https://www.cns11643.gov.tw/opendata/Fonts_Sung.zip> ;
   dcat:distribution <https://www.cns11643.gov.tw/opendata/Fonts_Kai.zip> ;
-  dcat:distribution <https://www.cns11643.gov.tw/opendata/Tables.zip> ;
+  dcat:distribution <https://www.cns11643.gov.tw/opendata/MapingTables.zip> ;
+  dcat:distribution <https://www.cns11643.gov.tw/opendata/Properties.zip> ;
   dcat:distribution <https://www.cns11643.gov.tw/opendata/Voice.zip> ;
   dcat:distribution <https://www.cns11643.gov.tw/opendata/OpenDataFilesList.csv> ;
 .
 
-<https://www.cns11643.gov.tw/opendata/release.json>
+<https://www.cns11643.gov.tw/opendata/release.txt>
   a dcat:Distribution;
   dcterms:description "filename、version、path、更新日期、更新項目、note"@zh ;
-  dcterms:description "全字庫資料集更新說明，2024年8月15日更新"@zh ;
+  dcterms:description "全字庫資料集更新說明，2025年1月13日更新"@zh ;
   dcterms:description ""@zh ;
-  rdfs:comment "全字庫資料集更新說明，2024年8月15日更新"@zh ;
-  schema:encodingFormat "UTF-8"@zh ;
-  dcat:byteSize "5"^^xsd:nonNegativeInteger;
-  dgt:resourceQualityCheckTime "2024-08-15T18:18:46"^^xsd:dateTime;
-  dcat:downloadURL <https://www.cns11643.gov.tw/opendata/release.json>;
+  rdfs:comment "全字庫資料集更新說明，2025年1月13日更新"@zh ;
+  schema:encodingFormat ""@zh ;
+  dcat:byteSize "0"^^xsd:nonNegativeInteger;
+  dgt:resourceQualityCheckTime "2025-01-13T17:50:15"^^xsd:dateTime;
+  dcat:downloadURL <https://www.cns11643.gov.tw/opendata/release.txt>;
   rdf:comment ""@zh;
 .
 
 <https://www.cns11643.gov.tw/opendata/Fonts_Sung.zip>
   a dcat:Distribution;
   dcterms:description "檔案名稱、下載連結"@zh ;
-  dcterms:description "全字庫宋體字型檔，2024年8月15日更新"@zh ;
+  dcterms:description "全字庫宋體字型檔"@zh ;
   dcterms:description ""@zh ;
-  rdfs:comment "全字庫宋體字型檔，2024年8月15日更新"@zh ;
+  rdfs:comment "全字庫宋體字型檔"@zh ;
   schema:encodingFormat ""@zh ;
   dcat:byteSize "0"^^xsd:nonNegativeInteger;
-  dgt:resourceQualityCheckTime "2024-08-15T18:18:47"^^xsd:dateTime;
+  dgt:resourceQualityCheckTime "2025-01-13T17:50:16"^^xsd:dateTime;
   dcat:downloadURL <https://www.cns11643.gov.tw/opendata/Fonts_Sung.zip>;
   rdf:comment ""@zh;
 .
@@ -86,38 +87,51 @@ dgt:5961
 <https://www.cns11643.gov.tw/opendata/Fonts_Kai.zip>
   a dcat:Distribution;
   dcterms:description "檔案名稱、下載連結"@zh ;
-  dcterms:description "全字庫楷體字型檔，2024年8月15日更新"@zh ;
+  dcterms:description "全字庫楷體字型檔"@zh ;
   dcterms:description ""@zh ;
-  rdfs:comment "全字庫楷體字型檔，2024年8月15日更新"@zh ;
+  rdfs:comment "全字庫楷體字型檔"@zh ;
   schema:encodingFormat ""@zh ;
   dcat:byteSize "0"^^xsd:nonNegativeInteger;
-  dgt:resourceQualityCheckTime "2024-08-15T18:18:49"^^xsd:dateTime;
+  dgt:resourceQualityCheckTime "2025-01-13T17:50:17"^^xsd:dateTime;
   dcat:downloadURL <https://www.cns11643.gov.tw/opendata/Fonts_Kai.zip>;
   rdf:comment ""@zh;
 .
 
-<https://www.cns11643.gov.tw/opendata/Tables.zip>
+<https://www.cns11643.gov.tw/opendata/MapingTables.zip>
   a dcat:Distribution;
   dcterms:description "檔案名稱、下載連結"@zh ;
-  dcterms:description "全字庫屬性資料集中文碼對照表，2024年8月15日更新"@zh ;
+  dcterms:description "全字庫中文碼對照表"@zh ;
   dcterms:description ""@zh ;
-  rdfs:comment "全字庫屬性資料集中文碼對照表，2024年8月15日更新"@zh ;
+  rdfs:comment "全字庫中文碼對照表"@zh ;
   schema:encodingFormat ""@zh ;
   dcat:byteSize "0"^^xsd:nonNegativeInteger;
-  dgt:resourceQualityCheckTime "2024-08-15T18:18:51"^^xsd:dateTime;
-  dcat:downloadURL <https://www.cns11643.gov.tw/opendata/Tables.zip>;
+  dgt:resourceQualityCheckTime "2025-01-13T17:50:19"^^xsd:dateTime;
+  dcat:downloadURL <https://www.cns11643.gov.tw/opendata/MapingTables.zip>;
+  rdf:comment ""@zh;
+.
+
+<https://www.cns11643.gov.tw/opendata/Properties.zip>
+  a dcat:Distribution;
+  dcterms:description "檔案名稱、下載連結"@zh ;
+  dcterms:description "全字庫屬性資料集對照表"@zh ;
+  dcterms:description ""@zh ;
+  rdfs:comment "全字庫屬性資料集對照表"@zh ;
+  schema:encodingFormat ""@zh ;
+  dcat:byteSize "0"^^xsd:nonNegativeInteger;
+  dgt:resourceQualityCheckTime "2025-01-13T17:50:19"^^xsd:dateTime;
+  dcat:downloadURL <https://www.cns11643.gov.tw/opendata/Properties.zip>;
   rdf:comment ""@zh;
 .
 
 <https://www.cns11643.gov.tw/opendata/Voice.zip>
   a dcat:Distribution;
   dcterms:description "檔案名稱、下載連結"@zh ;
-  dcterms:description "全字庫聲音檔，2019年1月31日更新"@zh ;
+  dcterms:description "全字庫聲音檔"@zh ;
   dcterms:description ""@zh ;
-  rdfs:comment "全字庫聲音檔，2019年1月31日更新"@zh ;
+  rdfs:comment "全字庫聲音檔"@zh ;
   schema:encodingFormat ""@zh ;
   dcat:byteSize "0"^^xsd:nonNegativeInteger;
-  dgt:resourceQualityCheckTime "2024-08-15T18:18:52"^^xsd:dateTime;
+  dgt:resourceQualityCheckTime "2025-01-13T17:50:20"^^xsd:dateTime;
   dcat:downloadURL <https://www.cns11643.gov.tw/opendata/Voice.zip>;
   rdf:comment ""@zh;
 .
@@ -129,8 +143,8 @@ dgt:5961
   dcterms:description ""@zh ;
   rdfs:comment "OpenDataFilesList.csv"@zh ;
   schema:encodingFormat "BIG5"@zh ;
-  dcat:byteSize "73"^^xsd:nonNegativeInteger;
-  dgt:resourceQualityCheckTime "2024-08-15T18:18:57"^^xsd:dateTime;
+  dcat:byteSize "70"^^xsd:nonNegativeInteger;
+  dgt:resourceQualityCheckTime "2025-01-13T17:50:24"^^xsd:dateTime;
   dcat:downloadURL <https://www.cns11643.gov.tw/opendata/OpenDataFilesList.csv>;
   rdf:comment ""@zh;
 .
