@@ -46,9 +46,9 @@ dgt:5961
   rdfs:comment "授權說明網址: http://data.gov.tw/license"@zh;
   dcterms:relation dgt:13022 ;
   dcterms:relation dgt:7081 ;
-  dcterms:relation dgt:32299 ;
   dcterms:relation dgt:13053 ;
   dcterms:relation dgt:54261 ;
+  dcterms:relation dgt:41316 ;
   dcat:distribution <https://www.cns11643.gov.tw/opendata/release.txt> ;
   dcat:distribution <https://www.cns11643.gov.tw/opendata/Fonts_Sung.zip> ;
   dcat:distribution <https://www.cns11643.gov.tw/opendata/Fonts_Kai.zip> ;
@@ -66,7 +66,7 @@ dgt:5961
   rdfs:comment "全字庫資料集更新說明，2025年3月25日更新"@zh ;
   schema:encodingFormat ""@zh ;
   dcat:byteSize "0"^^xsd:nonNegativeInteger;
-  dgt:resourceQualityCheckTime "2025-04-01T19:12:16"^^xsd:dateTime;
+  dgt:resourceQualityCheckTime "2025-06-02T07:29:49"^^xsd:dateTime;
   dcat:downloadURL <https://www.cns11643.gov.tw/opendata/release.txt>;
   rdf:comment ""@zh;
 .
@@ -79,7 +79,7 @@ dgt:5961
   rdfs:comment "全字庫宋體字型檔"@zh ;
   schema:encodingFormat ""@zh ;
   dcat:byteSize "0"^^xsd:nonNegativeInteger;
-  dgt:resourceQualityCheckTime "2025-04-01T19:12:18"^^xsd:dateTime;
+  dgt:resourceQualityCheckTime "2025-06-02T07:29:50"^^xsd:dateTime;
   dcat:downloadURL <https://www.cns11643.gov.tw/opendata/Fonts_Sung.zip>;
   rdf:comment ""@zh;
 .
@@ -92,7 +92,7 @@ dgt:5961
   rdfs:comment "全字庫楷體字型檔"@zh ;
   schema:encodingFormat ""@zh ;
   dcat:byteSize "0"^^xsd:nonNegativeInteger;
-  dgt:resourceQualityCheckTime "2025-04-01T19:12:19"^^xsd:dateTime;
+  dgt:resourceQualityCheckTime "2025-06-02T07:29:52"^^xsd:dateTime;
   dcat:downloadURL <https://www.cns11643.gov.tw/opendata/Fonts_Kai.zip>;
   rdf:comment ""@zh;
 .
@@ -105,7 +105,7 @@ dgt:5961
   rdfs:comment "全字庫中文碼對照表"@zh ;
   schema:encodingFormat ""@zh ;
   dcat:byteSize "0"^^xsd:nonNegativeInteger;
-  dgt:resourceQualityCheckTime "2025-04-01T19:12:20"^^xsd:dateTime;
+  dgt:resourceQualityCheckTime "2025-06-02T07:29:54"^^xsd:dateTime;
   dcat:downloadURL <https://www.cns11643.gov.tw/opendata/MapingTables.zip>;
   rdf:comment ""@zh;
 .
@@ -118,7 +118,7 @@ dgt:5961
   rdfs:comment "全字庫屬性資料集對照表"@zh ;
   schema:encodingFormat ""@zh ;
   dcat:byteSize "0"^^xsd:nonNegativeInteger;
-  dgt:resourceQualityCheckTime "2025-04-01T19:12:22"^^xsd:dateTime;
+  dgt:resourceQualityCheckTime "2025-06-02T07:29:55"^^xsd:dateTime;
   dcat:downloadURL <https://www.cns11643.gov.tw/opendata/Properties.zip>;
   rdf:comment ""@zh;
 .
@@ -131,7 +131,7 @@ dgt:5961
   rdfs:comment "全字庫聲音檔"@zh ;
   schema:encodingFormat ""@zh ;
   dcat:byteSize "0"^^xsd:nonNegativeInteger;
-  dgt:resourceQualityCheckTime "2025-04-01T19:12:23"^^xsd:dateTime;
+  dgt:resourceQualityCheckTime "2025-06-02T07:29:57"^^xsd:dateTime;
   dcat:downloadURL <https://www.cns11643.gov.tw/opendata/Voice.zip>;
   rdf:comment ""@zh;
 .
@@ -144,7 +144,7 @@ dgt:5961
   rdfs:comment "OpenDataFilesList.csv"@zh ;
   schema:encodingFormat "BIG5"@zh ;
   dcat:byteSize "70"^^xsd:nonNegativeInteger;
-  dgt:resourceQualityCheckTime "2025-04-01T19:12:27"^^xsd:dateTime;
+  dgt:resourceQualityCheckTime "2025-06-02T07:29:59"^^xsd:dateTime;
   dcat:downloadURL <https://www.cns11643.gov.tw/opendata/OpenDataFilesList.csv>;
   rdf:comment ""@zh;
 .
