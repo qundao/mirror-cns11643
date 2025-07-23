@@ -19,6 +19,7 @@ CNS2BIG5(符號).txt,Bi5,檔案,CNS對Big5符號及控制字元的對照表
 Unicode,MapingTables.zip,目錄,內含CNS對Unicode的對照表
 CNS2UNICODE_Unicode BMP.txt,Unicode,檔案,CNS對Unicode 第0(BMP)字面的對照表
 CNS2UNICODE_Unicode 2.txt,Unicode,檔案,CNS對Unicode 第2字面的對照表
+CNS2UNICODE_Unicode 3.txt,Unicode,檔案,CNS對Unicode 第3字面的對照表
 CNS2UNICODE_Unicode 15.txt,Unicode,檔案,CNS對Unicode 第15字面的對照表
 地政,MapingTables.zip,目錄,含25個縣市的對照表(縣市未合併及升格前)
 臺中市.txt,地政,檔案,CNS對臺中市機關使用內碼的對照表
