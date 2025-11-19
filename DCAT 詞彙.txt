@@ -24,7 +24,7 @@ dgt:CR5961
   dcterms:title "CNS11643中文標準交換碼全字庫(簡稱全字庫)"@zh ;
   dcterms:description ""@zh ;
   dcterms:issued "2015-01-31"^^xsd:date ;
-  dcterms:modified "2025-09-30T21:33:54"^^xsd:dateTime ;
+  dcterms:modified "2025-11-12T21:55:40"^^xsd:dateTime ;
   foaf:primaryTopic dgt:5961 ;
 .
 
@@ -46,9 +46,9 @@ dgt:5961
   rdfs:comment "授權說明網址: http://data.gov.tw/license"@zh;
   dcterms:relation dgt:13022 ;
   dcterms:relation dgt:7081 ;
-  dcterms:relation dgt:144303 ;
-  dcterms:relation dgt:144307 ;
-  dcterms:relation dgt:144289 ;
+  dcterms:relation dgt:149463 ;
+  dcterms:relation dgt:149391 ;
+  dcterms:relation dgt:144298 ;
   dcat:distribution <https://www.cns11643.gov.tw/opendata/release.txt> ;
   dcat:distribution <https://www.cns11643.gov.tw/opendata/Fonts_Sung.zip> ;
   dcat:distribution <https://www.cns11643.gov.tw/opendata/Fonts_Kai.zip> ;
@@ -61,12 +61,12 @@ dgt:5961
 <https://www.cns11643.gov.tw/opendata/release.txt>
   a dcat:Distribution;
   dcterms:description "filename、version、path、更新日期、更新項目、note"@zh ;
-  dcterms:description "全字庫資料集更新說明，2025年9月30日更新"@zh ;
+  dcterms:description "全字庫資料集更新說明，2025年11月10日更新"@zh ;
   dcterms:description ""@zh ;
-  rdfs:comment "全字庫資料集更新說明，2025年9月30日更新"@zh ;
+  rdfs:comment "全字庫資料集更新說明，2025年11月10日更新"@zh ;
   schema:encodingFormat ""@zh ;
   dcat:byteSize "0"^^xsd:nonNegativeInteger;
-  dgt:resourceQualityCheckTime "2025-09-30T21:39:37"^^xsd:dateTime;
+  dgt:resourceQualityCheckTime "2025-11-12T22:01:41"^^xsd:dateTime;
   dcat:downloadURL <https://www.cns11643.gov.tw/opendata/release.txt>;
   rdf:comment ""@zh;
 .
@@ -79,7 +79,7 @@ dgt:5961
   rdfs:comment "全字庫宋體字型檔"@zh ;
   schema:encodingFormat ""@zh ;
   dcat:byteSize "0"^^xsd:nonNegativeInteger;
-  dgt:resourceQualityCheckTime "2025-09-30T21:39:38"^^xsd:dateTime;
+  dgt:resourceQualityCheckTime "2025-11-12T22:01:42"^^xsd:dateTime;
   dcat:downloadURL <https://www.cns11643.gov.tw/opendata/Fonts_Sung.zip>;
   rdf:comment ""@zh;
 .
@@ -92,7 +92,7 @@ dgt:5961
   rdfs:comment "全字庫楷體字型檔"@zh ;
   schema:encodingFormat ""@zh ;
   dcat:byteSize "0"^^xsd:nonNegativeInteger;
-  dgt:resourceQualityCheckTime "2025-09-30T21:39:39"^^xsd:dateTime;
+  dgt:resourceQualityCheckTime "2025-11-12T22:01:43"^^xsd:dateTime;
   dcat:downloadURL <https://www.cns11643.gov.tw/opendata/Fonts_Kai.zip>;
   rdf:comment ""@zh;
 .
@@ -105,7 +105,7 @@ dgt:5961
   rdfs:comment "全字庫中文碼對照表"@zh ;
   schema:encodingFormat ""@zh ;
   dcat:byteSize "0"^^xsd:nonNegativeInteger;
-  dgt:resourceQualityCheckTime "2025-09-30T21:39:41"^^xsd:dateTime;
+  dgt:resourceQualityCheckTime "2025-11-12T22:01:45"^^xsd:dateTime;
   dcat:downloadURL <https://www.cns11643.gov.tw/opendata/MapingTables.zip>;
   rdf:comment ""@zh;
 .
@@ -118,7 +118,7 @@ dgt:5961
   rdfs:comment "全字庫屬性資料集對照表"@zh ;
   schema:encodingFormat ""@zh ;
   dcat:byteSize "0"^^xsd:nonNegativeInteger;
-  dgt:resourceQualityCheckTime "2025-09-30T21:39:42"^^xsd:dateTime;
+  dgt:resourceQualityCheckTime "2025-11-12T22:01:45"^^xsd:dateTime;
   dcat:downloadURL <https://www.cns11643.gov.tw/opendata/Properties.zip>;
   rdf:comment ""@zh;
 .
@@ -131,7 +131,7 @@ dgt:5961
   rdfs:comment "全字庫聲音檔"@zh ;
   schema:encodingFormat ""@zh ;
   dcat:byteSize "0"^^xsd:nonNegativeInteger;
-  dgt:resourceQualityCheckTime "2025-09-30T21:39:43"^^xsd:dateTime;
+  dgt:resourceQualityCheckTime "2025-11-12T22:01:46"^^xsd:dateTime;
   dcat:downloadURL <https://www.cns11643.gov.tw/opendata/Voice.zip>;
   rdf:comment ""@zh;
 .
@@ -144,7 +144,7 @@ dgt:5961
   rdfs:comment "OpenDataFilesList.csv"@zh ;
   schema:encodingFormat "BIG5"@zh ;
   dcat:byteSize "71"^^xsd:nonNegativeInteger;
-  dgt:resourceQualityCheckTime "2025-09-30T21:39:47"^^xsd:dateTime;
+  dgt:resourceQualityCheckTime "2025-11-12T22:01:49"^^xsd:dateTime;
   dcat:downloadURL <https://www.cns11643.gov.tw/opendata/OpenDataFilesList.csv>;
   rdf:comment ""@zh;
 .
