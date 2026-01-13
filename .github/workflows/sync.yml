@@ -1,0 +1,37 @@
+name: Sync CNS11643
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+  schedule:
+    - cron: "30 10 * * 3"
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Install unar
+        run: sudo apt-get update && sudo apt-get install -y unar && unar --version
+
+      - name: Run Download
+        # if: github.event.schedule == '0 20 * * 1'
+        run: bash run-sync.sh
+
+      - name: Git auto commit
+        uses: stefanzweifel/git-auto-commit-action@v6
+        with:
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "41898282+github-actions[bot]@users.noreply.github.com"
+          commit_author: "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
+          commit_message: Automated update
+          # commit_options: '--no-verify --signoff'
+          # push_options: "--force"
+          # file_pattern: "*"
