@@ -46,9 +46,9 @@ dgt:5961
   rdfs:comment "授權說明網址: http://data.gov.tw/license"@zh;
   dcterms:relation dgt:13022 ;
   dcterms:relation dgt:7081 ;
-  dcterms:relation dgt:149391 ;
-  dcterms:relation dgt:149463 ;
-  dcterms:relation dgt:144292 ;
+  dcterms:relation dgt:32299 ;
+  dcterms:relation dgt:54261 ;
+  dcterms:relation dgt:41316 ;
   dcat:distribution <https://www.cns11643.gov.tw/opendata/release.txt> ;
   dcat:distribution <https://www.cns11643.gov.tw/opendata/Fonts_Sung.zip> ;
   dcat:distribution <https://www.cns11643.gov.tw/opendata/Fonts_Kai.zip> ;
