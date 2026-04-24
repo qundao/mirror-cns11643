@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -eu
 
 TEMP_DIR="temp"
 URL_LIST=(
@@ -42,7 +43,7 @@ fi
 
 mkdir -p $base
 for zipfile in *.zip; do
-    dirname="${zipfile%.zip}"
+    # dirname="${zipfile%.zip}"
     # mkdir -p "$dirname"
     # unzip "$zipfile" -d "$dirname"
     unar -quiet -output-directory "$base" "$zipfile"
