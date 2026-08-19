@@ -24,7 +24,7 @@ dgt:CR5961
   dcterms:title "CNS11643中文標準交換碼全字庫(簡稱全字庫)"@zh ;
   dcterms:description ""@zh ;
   dcterms:issued "2015-01-31"^^xsd:date ;
-  dcterms:modified "2026-07-14T14:32:51"^^xsd:dateTime ;
+  dcterms:modified "2026-08-10T15:16:25"^^xsd:dateTime ;
   foaf:primaryTopic dgt:5961 ;
 .
 
@@ -40,15 +40,15 @@ dgt:5961
   dcat:contactPoint [ rdfs:label "黃杬霆 (02-23800222)"@zh ];
   dcterms:accrualPeriodity <http://purl.org/cld/freq/Irregular>;
   dcat:theme [ rdfs:label "公共資訊"@zh ];
-  dcat:keyword "全字庫、中文字型下載、中文碼對照表、統一代碼、AI-Ready Data 詮釋資料框架指標"@zh;
+  dcat:keyword ""@zh;
   schema:offers [ a schema:Offer;  rdfs:label "免費"@zh;  schema:price "0"^^xsd:nonNegativeInteger; schema:priceCurrency "TWD"^^xsd:string ];
   dcat:landingPage <https://cms.data.gov.tw/dataset/5961>;
   rdfs:comment "授權說明網址: http://data.gov.tw/license"@zh;
   dcterms:relation dgt:13022 ;
   dcterms:relation dgt:7081 ;
+  dcterms:relation dgt:149392 ;
   dcterms:relation dgt:144296 ;
   dcterms:relation dgt:144299 ;
-  dcterms:relation dgt:41316 ;
   dcat:distribution <https://www.cns11643.gov.tw/opendata/release.txt> ;
   dcat:distribution <https://www.cns11643.gov.tw/opendata/Fonts_Sung.zip> ;
   dcat:distribution <https://www.cns11643.gov.tw/opendata/Fonts_Kai.zip> ;
@@ -61,9 +61,9 @@ dgt:5961
 <https://www.cns11643.gov.tw/opendata/release.txt>
   a dcat:Distribution;
   dcterms:description "filename、version、path、更新日期、更新項目、note"@zh ;
-  dcterms:description "全字庫資料集更新說明，2026年5月5日更新"@zh ;
+  dcterms:description "全字庫資料集更新說明，2026年8月5日更新"@zh ;
   dcterms:description ""@zh ;
-  rdfs:comment "全字庫資料集更新說明，2026年5月5日更新"@zh ;
+  rdfs:comment "全字庫資料集更新說明，2026年8月5日更新"@zh ;
   schema:encodingFormat ""@zh ;
   dcat:byteSize "0"^^xsd:nonNegativeInteger;
   dgt:resourceQualityCheckTime "2026-07-14T14:44:30"^^xsd:dateTime;
