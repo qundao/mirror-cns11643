@@ -47,8 +47,8 @@ dgt:5961
   dcterms:relation dgt:13022 ;
   dcterms:relation dgt:7081 ;
   dcterms:relation dgt:149392 ;
-  dcterms:relation dgt:144296 ;
   dcterms:relation dgt:144299 ;
+  dcterms:relation dgt:144296 ;
   dcat:distribution <https://www.cns11643.gov.tw/opendata/release.txt> ;
   dcat:distribution <https://www.cns11643.gov.tw/opendata/Fonts_Sung.zip> ;
   dcat:distribution <https://www.cns11643.gov.tw/opendata/Fonts_Kai.zip> ;
